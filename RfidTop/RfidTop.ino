@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include <RFID.h>
 #include <Wire.h>
-#define RST_PIN    9    // 
+#define RST_PIN    5    // 
 #define SS_PIN    10    //
 #define AT24C32 0x50
 RFID rfid(SS_PIN, RST_PIN);
