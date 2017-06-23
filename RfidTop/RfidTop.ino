@@ -19,7 +19,7 @@ byte date=0;
 byte yea=0;
 void setup() 
 {
-  Serial.begin(9600);
+ // Serial.begin(9600);
   Wire.begin();
   while (!Serial);
   SPI.begin();
